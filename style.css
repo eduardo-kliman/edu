@@ -3,10 +3,10 @@
             --primary-color: #1e3a8a; /* Azul escuro corporativo/tech */
             --secondary-color: #ffffff; /* Fundo dos cards branco */
             --bg-color: #f8fafc; /* Fundo da página levemente acinzentado */
-            --text-color: #334155; /* Texto grafite escuro para melhor leitura */
-            --accent-color: #3b82f6; /* Azul vibrante para links/destaques */
-            --tag-bg: #eff6ff; /* Fundo das tags de habilidades */
-            --tag-text: #1e40af; /* Texto das tags */
+            --text-color: #ffffff; /* Texto grafite escuro para melhor leitura */
+            --accent-color: #ffffff; /* Azul vibrante para links/destaques */
+            --tag-bg: #ffffff; /* Fundo das tags de habilidades */
+            --tag-text: #ffffff; /* Texto das tags */
         }
 
         body {
@@ -149,4 +149,8 @@
             header h1 { font-size: 1.7rem; }
             section { padding: 1.5rem; }
             .container { padding: 1.5rem 1rem; }
+        }
+        a{
+            font-size: 15px;
+            color: white;
         }
